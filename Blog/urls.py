@@ -23,4 +23,6 @@ urlpatterns = [
     path('hello/', views.hello),
     path('good/', views.good),
     path('data/', views.h),
+    path('post/', views.post),
+    path('hashtags/', views.hashtag),
 ]

@@ -10,4 +10,7 @@ def good (request):
 def h (request):
     date = datetime.datetime.now()
     return render(request, 'h.html', {'date':date})
-
+def post (request):
+    return render(request, 'posts.html')
+def hashtag  (request):
+    return render(request, 'Hashteg.html')
